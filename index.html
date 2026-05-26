@@ -1,0 +1,569 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Adeline Palmerston — Professional Portfolio. Photographer, Creative Director, Visual Artist." />
+  <meta name="keywords" content="portfolio, photography, creative, design, Adeline Palmerston" />
+  <title>Adeline Palmerston — Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <!-- Font Awesome for icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+</head>
+<body>
+
+  <!-- ─── LOADING SCREEN ─────────────────────────────── -->
+  <div id="loading-screen" aria-hidden="true">
+    <span class="loader-letter">A</span>
+  </div>
+
+  <!-- ─── MOBILE MENU ────────────────────────────────── -->
+  <nav id="mobile-menu" role="dialog" aria-label="Mobile navigation">
+    <a href="#hero"          data-scroll="hero">Home</a>
+    <a href="#gallery"       data-scroll="gallery">Photo</a>
+    <a href="#vision"        data-scroll="vision">About Me</a>
+    <a href="#contact"       data-scroll="contact">Contact</a>
+  </nav>
+
+  <!-- ─── NAVBAR ─────────────────────────────────────── -->
+  <header id="navbar" role="banner">
+    <span class="nav-logo">Adeline Palmerston</span>
+    <ul class="nav-links" role="list">
+      <li><a href="#hero"        data-scroll="hero">Home</a></li>
+      <li><a href="#gallery"     data-scroll="gallery">Photo</a></li>
+      <li><a href="#vision"      data-scroll="vision">About Me</a></li>
+      <li><a href="#contact"     data-scroll="contact">Contact</a></li>
+    </ul>
+    <button class="hamburger" id="hamburger" aria-label="Toggle menu" aria-expanded="false">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+  </header>
+
+  <!-- ─── HERO ───────────────────────────────────────── -->
+  <section id="hero" aria-label="Hero">
+    <div class="hero-content reveal">
+      <h1 class="hero-heading">
+        <span>My</span>
+        <span>Portfolio</span>
+      </h1>
+      <p class="hero-sub">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+        incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+        exercitation ullamco laboris nisi ut aliquip.
+      </p>
+      <div class="hero-actions">
+        <a href="#introduction" data-scroll="introduction" class="btn-primary">
+          Explore Now
+        </a>
+        <button id="play-video-btn" class="btn-secondary" aria-label="Play showreel video">
+          <span class="btn-play-icon">&#9654;</span>
+          Play Video
+        </button>
+      </div>
+    </div>
+    <div class="hero-image-wrap reveal delay-2">
+      <img
+        src="https://images.unsplash.com/photo-1531746020798-e6953c6e8e04?w=900&q=80&fit=crop"
+        alt="Adeline Palmerston — professional portrait"
+        loading="eager"
+      />
+    </div>
+  </section>
+
+  <!-- ─── INTRODUCTION ───────────────────────────────── -->
+  <section id="introduction" aria-label="Introduction">
+    <div class="intro-header reveal">
+      <p class="section-label">Section 01</p>
+      <h2 class="section-title">Introduction</h2>
+      <p class="section-body">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+        incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+        exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
+        dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+        Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt.
+      </p>
+    </div>
+    <div class="intro-grid">
+      <article class="intro-card reveal delay-1">
+        <p class="card-number">01 — About</p>
+        <h3 class="card-title">About Me</h3>
+        <p class="card-body">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+          incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+          exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+        </p>
+      </article>
+      <article class="intro-card reveal delay-2">
+        <p class="card-number">02 — Work</p>
+        <h3 class="card-title">About Portfolio</h3>
+        <p class="card-body">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+          incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+          exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+        </p>
+      </article>
+    </div>
+  </section>
+
+  <!-- ─── ABOUT OVERVIEW (3 columns) ────────────────── -->
+  <div id="about-overview" aria-label="About overview">
+    <div class="overview-col reveal">
+      <p class="overview-col-label">Identity</p>
+      <h3 class="overview-col-title">About Me</h3>
+      <p class="overview-col-body">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+        incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+        exercitation ullamco laboris nisi ut aliquip ex ea commodo.
+      </p>
+    </div>
+    <div class="overview-col reveal delay-1">
+      <p class="overview-col-label">Direction</p>
+      <h3 class="overview-col-title">My Vision</h3>
+      <p class="overview-col-body">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+        incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+        exercitation ullamco laboris nisi ut aliquip ex ea commodo.
+      </p>
+    </div>
+    <div class="overview-col reveal delay-2">
+      <p class="overview-col-label">Purpose</p>
+      <h3 class="overview-col-title">My Mission</h3>
+      <p class="overview-col-body">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+        incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+        exercitation ullamco laboris nisi ut aliquip ex ea commodo.
+      </p>
+    </div>
+  </div>
+
+  <!-- ─── VISION ─────────────────────────────────────── -->
+  <section id="vision" aria-label="My Vision">
+    <div class="reveal">
+      <p class="section-label">Section 02</p>
+      <h2 class="section-title">My Vision</h2>
+    </div>
+    <div class="vision-items">
+      <div class="vision-item reveal delay-1">
+        <span class="vision-number">01.</span>
+        <div class="vision-text">
+          <h3>Seeing Beyond the Frame</h3>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+            incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+            exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
+            dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla.
+          </p>
+        </div>
+      </div>
+      <div class="vision-item reveal delay-2">
+        <span class="vision-number">02.</span>
+        <div class="vision-text">
+          <h3>Crafting Timeless Stories</h3>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+            incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+            exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
+            dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ─── MISSION ────────────────────────────────────── -->
+  <section id="mission" aria-label="My Mission">
+    <div class="mission-header reveal">
+      <p class="section-label">Section 03</p>
+      <h2 class="section-title">My Mission</h2>
+    </div>
+    <div class="mission-grid">
+      <article class="mission-card reveal delay-1">
+        <span class="mission-num">01.</span>
+        <div class="mission-content">
+          <h3>Authenticity First</h3>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+            incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+            exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+          </p>
+        </div>
+      </article>
+      <article class="mission-card reveal delay-2">
+        <span class="mission-num">02.</span>
+        <div class="mission-content">
+          <h3>Excellence in Craft</h3>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+            incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+            exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+          </p>
+        </div>
+      </article>
+      <article class="mission-card reveal delay-3">
+        <span class="mission-num">03.</span>
+        <div class="mission-content">
+          <h3>Connecting Worlds</h3>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+            incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+            exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+          </p>
+        </div>
+      </article>
+      <article class="mission-card reveal delay-4">
+        <span class="mission-num">04.</span>
+        <div class="mission-content">
+          <h3>Continuous Growth</h3>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+            incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+            exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+          </p>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <!-- ─── FAVORITE PORTFOLIO ─────────────────────────── -->
+  <section id="favorite-portfolio" aria-label="My Favorite Portfolio">
+    <div class="fav-title-wrap reveal">
+      <p class="section-label" style="color:var(--gray-600)">Section 04</p>
+      <h2 class="section-title light">My Favorite Portfolio</h2>
+    </div>
+    <div class="fav-portfolio-grid">
+      <article class="fav-card reveal delay-1">
+        <div class="fav-img-wrap">
+          <img
+            src="https://images.unsplash.com/photo-1486325212027-8081e485255e?w=800&q=80&fit=crop"
+            alt="Portfolio project 01 — Architecture"
+            loading="lazy"
+          />
+        </div>
+        <div class="fav-card-body">
+          <h3 class="fav-card-title">Portfolio 01</h3>
+          <p class="fav-card-desc">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+            incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+            exercitation ullamco laboris nisi ut aliquip ex ea commodo.
+          </p>
+          <a href="#" class="btn-view" aria-label="View portfolio project 01">
+            View Project <span class="btn-arrow">&#8594;</span>
+          </a>
+        </div>
+      </article>
+      <article class="fav-card reveal delay-2">
+        <div class="fav-img-wrap">
+          <img
+            src="https://images.unsplash.com/photo-1518005020951-eccb494ad742?w=800&q=80&fit=crop"
+            alt="Portfolio project 02 — Abstract"
+            loading="lazy"
+          />
+        </div>
+        <div class="fav-card-body">
+          <h3 class="fav-card-title">Portfolio 02</h3>
+          <p class="fav-card-desc">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+            incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+            exercitation ullamco laboris nisi ut aliquip ex ea commodo.
+          </p>
+          <a href="#" class="btn-view" aria-label="View portfolio project 02">
+            View Project <span class="btn-arrow">&#8594;</span>
+          </a>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <!-- ─── TEAM ───────────────────────────────────────── -->
+  <section id="team" aria-label="Meet My Team">
+    <div class="team-title-wrap reveal">
+      <p class="section-label">Section 05</p>
+      <h2 class="section-title">Meet My Team</h2>
+    </div>
+    <div class="team-grid">
+      <article class="team-card reveal delay-1">
+        <div class="team-img-wrap">
+          <img
+            src="https://images.unsplash.com/photo-1508214751196-bcfd4ca60f91?w=400&h=400&q=80&fit=crop&crop=faces"
+            alt="Brigitte Schwartz"
+            loading="lazy"
+          />
+        </div>
+        <h3 class="team-name">Brigitte Schwartz</h3>
+        <p class="team-role">Creative Director</p>
+        <p class="team-bio">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+          incididunt ut labore et dolore magna aliqua.
+        </p>
+      </article>
+      <article class="team-card reveal delay-2">
+        <div class="team-img-wrap">
+          <img
+            src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=400&q=80&fit=crop&crop=faces"
+            alt="Alfredo Torres"
+            loading="lazy"
+          />
+        </div>
+        <h3 class="team-name">Alfredo Torres</h3>
+        <p class="team-role">Lead Photographer</p>
+        <p class="team-bio">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+          incididunt ut labore et dolore magna aliqua.
+        </p>
+      </article>
+      <article class="team-card reveal delay-3">
+        <div class="team-img-wrap">
+          <img
+            src="https://images.unsplash.com/photo-1489424731084-a5d8b219a5bb?w=400&h=400&q=80&fit=crop&crop=faces"
+            alt="Adora Montminy"
+            loading="lazy"
+          />
+        </div>
+        <h3 class="team-name">Adora Montminy</h3>
+        <p class="team-role">Art Director</p>
+        <p class="team-bio">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+          incididunt ut labore et dolore magna aliqua.
+        </p>
+      </article>
+      <article class="team-card reveal delay-4">
+        <div class="team-img-wrap">
+          <img
+            src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=400&h=400&q=80&fit=crop&crop=faces"
+            alt="Daniel Gallego"
+            loading="lazy"
+          />
+        </div>
+        <h3 class="team-name">Daniel Gallego</h3>
+        <p class="team-role">Visual Editor</p>
+        <p class="team-bio">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+          incididunt ut labore et dolore magna aliqua.
+        </p>
+      </article>
+    </div>
+  </section>
+
+  <!-- ─── GALLERY ─────────────────────────────────────── -->
+  <section id="gallery" aria-label="My Portfolio Gallery">
+    <div class="gallery-header reveal">
+      <p class="section-label">Section 06</p>
+      <h2 class="section-title">My Portfolio</h2>
+      <p class="section-body">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+        incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+        exercitation ullamco laboris nisi ut aliquip ex ea commodo.
+      </p>
+    </div>
+    <div class="gallery-grid" role="list">
+      <div class="gallery-item reveal delay-1" role="listitem" tabindex="0" aria-label="Gallery image 1 — Architecture">
+        <img
+          src="https://images.unsplash.com/photo-1486325212027-8081e485255e?w=700&q=80&fit=crop"
+          alt="Architecture photography"
+          loading="lazy"
+        />
+        <div class="gallery-overlay">
+          <span class="gallery-zoom-icon">&#x2B;</span>
+        </div>
+      </div>
+      <div class="gallery-item reveal delay-2" role="listitem" tabindex="0" aria-label="Gallery image 2 — Portrait">
+        <img
+          src="https://images.unsplash.com/photo-1531746020798-e6953c6e8e04?w=700&q=80&fit=crop"
+          alt="Portrait photography"
+          loading="lazy"
+        />
+        <div class="gallery-overlay">
+          <span class="gallery-zoom-icon">&#x2B;</span>
+        </div>
+      </div>
+      <div class="gallery-item reveal delay-3" role="listitem" tabindex="0" aria-label="Gallery image 3 — Street">
+        <img
+          src="https://images.unsplash.com/photo-1477959858617-67f85cf4f1df?w=700&q=80&fit=crop"
+          alt="Street photography"
+          loading="lazy"
+        />
+        <div class="gallery-overlay">
+          <span class="gallery-zoom-icon">&#x2B;</span>
+        </div>
+      </div>
+      <div class="gallery-item reveal delay-1" role="listitem" tabindex="0" aria-label="Gallery image 4 — Abstract">
+        <img
+          src="https://images.unsplash.com/photo-1541701494587-cb58502866ab?w=700&q=80&fit=crop"
+          alt="Abstract photography"
+          loading="lazy"
+        />
+        <div class="gallery-overlay">
+          <span class="gallery-zoom-icon">&#x2B;</span>
+        </div>
+      </div>
+      <div class="gallery-item reveal delay-2" role="listitem" tabindex="0" aria-label="Gallery image 5 — Nature">
+        <img
+          src="https://images.unsplash.com/photo-1518005020951-eccb494ad742?w=700&q=80&fit=crop"
+          alt="Nature photography"
+          loading="lazy"
+        />
+        <div class="gallery-overlay">
+          <span class="gallery-zoom-icon">&#x2B;</span>
+        </div>
+      </div>
+      <div class="gallery-item reveal delay-3" role="listitem" tabindex="0" aria-label="Gallery image 6 — Interior">
+        <img
+          src="https://images.unsplash.com/photo-1493809842364-78817add7ffb?w=700&q=80&fit=crop"
+          alt="Interior photography"
+          loading="lazy"
+        />
+        <div class="gallery-overlay">
+          <span class="gallery-zoom-icon">&#x2B;</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ─── LIGHTBOX ─────────────────────────────────────── -->
+  <div id="lightbox" role="dialog" aria-label="Image lightbox" aria-modal="true">
+    <button id="lightbox-close" aria-label="Close lightbox">&times;</button>
+    <img id="lightbox-img" src="" alt="Enlarged gallery image" />
+  </div>
+
+  <!-- ─── CONTACT ─────────────────────────────────────── -->
+  <section id="contact" aria-label="Contact">
+    <div class="reveal">
+      <p class="section-label" style="color:var(--gray-600)">Section 07</p>
+      <h2 class="section-title light">My Contact</h2>
+      <p class="section-body light">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+        incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+        exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
+        dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+      </p>
+    </div>
+    <div class="contact-grid">
+      <!-- Contact details -->
+      <ul class="contact-info-list reveal delay-1" aria-label="Contact details">
+        <li class="contact-info-item">
+          <span class="contact-icon" aria-hidden="true"><i class="fa fa-phone"></i></span>
+          <div>
+            <p class="contact-detail-label">Phone</p>
+            <p class="contact-detail-val">+123-456-7890</p>
+          </div>
+        </li>
+        <li class="contact-info-item">
+          <span class="contact-icon" aria-hidden="true"><i class="fa fa-globe"></i></span>
+          <div>
+            <p class="contact-detail-label">Website</p>
+            <p class="contact-detail-val">www.reallygreatsite.com</p>
+          </div>
+        </li>
+        <li class="contact-info-item">
+          <span class="contact-icon" aria-hidden="true"><i class="fa fa-envelope"></i></span>
+          <div>
+            <p class="contact-detail-label">Email</p>
+            <p class="contact-detail-val">hello@reallygreatsite.com</p>
+          </div>
+        </li>
+        <li class="contact-info-item">
+          <span class="contact-icon" aria-hidden="true"><i class="fa fa-location-dot"></i></span>
+          <div>
+            <p class="contact-detail-label">Address</p>
+            <p class="contact-detail-val">123 Anywhere ST., Any City, ST 12345</p>
+          </div>
+        </li>
+      </ul>
+
+      <!-- Contact form -->
+      <div class="reveal delay-2">
+        <form id="contact-form" novalidate aria-label="Contact form">
+          <div class="form-group">
+            <label class="form-label" for="form-name">Your Name</label>
+            <input
+              class="form-input"
+              type="text"
+              id="form-name"
+              name="name"
+              placeholder="Adeline Palmerston"
+              autocomplete="name"
+            />
+            <span class="form-error" id="form-name-error" role="alert"></span>
+          </div>
+          <div class="form-group">
+            <label class="form-label" for="form-email">Email Address</label>
+            <input
+              class="form-input"
+              type="email"
+              id="form-email"
+              name="email"
+              placeholder="hello@example.com"
+              autocomplete="email"
+            />
+            <span class="form-error" id="form-email-error" role="alert"></span>
+          </div>
+          <div class="form-group">
+            <label class="form-label" for="form-message">Message</label>
+            <textarea
+              class="form-textarea"
+              id="form-message"
+              name="message"
+              placeholder="Tell me about your project…"
+            ></textarea>
+            <span class="form-error" id="form-message-error" role="alert"></span>
+          </div>
+          <button type="submit" class="btn-submit">Send Message</button>
+        </form>
+        <div id="form-success" class="form-success" role="status" aria-live="polite">
+          <strong style="display:block;margin-bottom:8px;color:var(--white)">Message sent successfully!</strong>
+          Thank you for reaching out, Adeline will get back to you within 24 hours.
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ─── FOOTER ───────────────────────────────────────── -->
+  <footer id="footer" role="contentinfo">
+    <div class="footer-top">
+      <h2 class="footer-heading reveal">
+        Thank<br />You
+      </h2>
+      <div class="reveal delay-2">
+        <p class="footer-body">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+          incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+          exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
+          dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+          Excepteur sint occaecat cupidatat non proident, sunt in culpa.
+        </p>
+      </div>
+    </div>
+    <div class="footer-bottom reveal">
+      <p class="footer-copy">&copy; 2026 Adeline Palmerston. All rights reserved.</p>
+      <div class="footer-socials" aria-label="Social media links">
+        <a href="#" class="social-link" aria-label="Instagram" target="_blank" rel="noopener noreferrer">
+          <i class="fab fa-instagram"></i>
+        </a>
+        <a href="#" class="social-link" aria-label="LinkedIn" target="_blank" rel="noopener noreferrer">
+          <i class="fab fa-linkedin-in"></i>
+        </a>
+        <a href="#" class="social-link" aria-label="GitHub" target="_blank" rel="noopener noreferrer">
+          <i class="fab fa-github"></i>
+        </a>
+        <a href="#" class="social-link" aria-label="Twitter / X" target="_blank" rel="noopener noreferrer">
+          <i class="fab fa-x-twitter"></i>
+        </a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ─── VIDEO MODAL ───────────────────────────────────── -->
+  <div id="video-modal" role="dialog" aria-label="Video modal" aria-modal="true">
+    <div class="video-modal-inner">
+      <button id="video-close" aria-label="Close video modal">&times;</button>
+      <div class="video-placeholder">
+        <span>Video Player Placeholder — Connect your video source here</span>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
